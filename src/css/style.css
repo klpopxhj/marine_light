@@ -903,7 +903,7 @@ code {
 }
 @media only screen and (max-width: 767px) {
   .site-header .header-main .logo {
-    width: 90%;
+    width: 5%;
     width: calc(100% - 30px);
   }
   .site-header .header-main {
@@ -981,6 +981,9 @@ code {
   }
 }
 @media only screen and (max-width: 568px) {
+  .site-header .header-main .logo {
+    width: 3%;
+  }
   .site-header .header-main .menu ul li a {
     color: #fff;
   }
@@ -1021,6 +1024,9 @@ code {
   }
 }
 @media only screen and (max-width: 480px) {
+  .site-header .header-main .logo {
+    width: 3%;
+  }
   .about-main .left .gatsby-image-wrapper {
     height: 400px;
   }
