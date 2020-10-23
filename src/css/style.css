@@ -901,9 +901,9 @@ code {
     height: 400px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .site-header .header-main .logo {
-    width: 5%;
+    width: 10%;
     width: calc(100% - 30px);
   }
   .site-header .header-main {
@@ -980,9 +980,9 @@ code {
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 568px) {
-  .site-header .header-main .logo {
-    width: 3%;
+@media only screen and (max-width: 600px) {
+  .site-header .header-main .logo img {
+    width: 10%;
   }
   .site-header .header-main .menu ul li a {
     color: #fff;
@@ -1024,8 +1024,8 @@ code {
   }
 }
 @media only screen and (max-width: 480px) {
-  .site-header .header-main .logo {
-    width: 3%;
+  .site-header .header-main .logo img {
+    width: 10%;
   }
   .about-main .left .gatsby-image-wrapper {
     height: 400px;
